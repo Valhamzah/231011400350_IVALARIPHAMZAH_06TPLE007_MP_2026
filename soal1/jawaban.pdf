@@ -1,0 +1,71 @@
+## 1. Sketsa Layout
+![Sketsa](Sketsa.png)
+
+---
+
+## 2. Alasan Pemilihan Widget
+- **MaterialApp**  
+  Digunakan sebagai dasar aplikasi Flutter agar mendukung tampilan Material Design serta mempermudah pengaturan halaman aplikasi.
+
+- **Scaffold**  
+  Digunakan untuk membuat struktur utama halaman seperti AppBar, body, dan BottomNavigationBar sehingga tampilan aplikasi lebih terorganisir.
+
+- **AppBar**  
+  Digunakan untuk menampilkan judul halaman dan icon pengaturan agar pengguna mudah memahami halaman yang sedang dibuka.
+
+- **Column**  
+  Digunakan untuk menyusun widget secara vertikal, seperti judul halaman dan daftar workshop agar tampilan lebih rapi.
+
+- **ListView.builder**  
+  Digunakan karena daftar workshop dapat bertambah banyak dan perlu fitur scroll agar tetap nyaman digunakan pada berbagai ukuran layar.
+
+- **Container**  
+  Digunakan untuk membuat tampilan card workshop dengan border, warna, padding, dan radius sehingga tampilan lebih modern dan terpisah dengan jelas.
+
+- **Row**  
+  Digunakan untuk menyusun icon dan teks secara horizontal agar informasi workshop lebih mudah dibaca.
+
+- **GestureDetector**  
+  Digunakan agar card workshop dapat ditekan untuk membuka halaman detail workshop.
+
+- **Navigator & MaterialPageRoute**  
+  Digunakan untuk berpindah dari halaman daftar workshop ke halaman detail workshop.
+
+- **SingleChildScrollView**  
+  Digunakan pada halaman detail agar isi halaman tetap dapat discroll ketika konten lebih panjang dari ukuran layar.
+
+- **BottomNavigationBar**  
+  Digunakan untuk mempermudah navigasi antar menu utama seperti Home, Favorit, Jadwal, dan Profil.
+
+- **ElevatedButton**  
+  Digunakan sebagai tombol aksi utama “Daftar Sekarang” agar terlihat menonjol dan mudah ditekan pengguna.
+
+---
+
+## 3. Kesalahan UI yang Dihindari
+1. **Tampilan Terlalu Penuh**  
+   Menampilkan terlalu banyak informasi tanpa jarak antar elemen dapat membuat pengguna kesulitan membaca informasi workshop.
+
+2. **Navigasi Sulit Dipahami**  
+   Tidak adanya navigasi yang jelas dapat membuat pengguna bingung saat berpindah halaman, sehingga digunakan BottomNavigationBar dan icon yang mudah dikenali.
+
+---
+
+## 4. Kenyamanan Baca (UX)
+1. **Hierarki Visual yang Jelas**  
+   Judul workshop dibuat lebih besar dibanding informasi lainnya agar pengguna langsung fokus pada informasi utama.
+
+2. **Spacing yang Cukup**  
+   Penggunaan padding, margin, dan SizedBox membantu memberi jarak antar elemen sehingga tampilan tidak terasa sempit.
+
+3. **Kontras Warna yang Baik**  
+   Warna background terang dipadukan dengan teks hitam agar informasi lebih mudah dibaca.
+
+4. **Card Workshop yang Terpisah**  
+   Setiap workshop ditempatkan dalam card berbeda agar informasi tidak bercampur dan lebih fokus.
+
+5. **Navigasi Mudah Digunakan**  
+   Penggunaan icon dan BottomNavigationBar membantu pengguna berpindah halaman dengan lebih cepat dan mudah dipahami.
+
+6. **Detail Workshop Lebih Fokus**  
+   Saat card workshop ditekan, pengguna diarahkan ke halaman detail sehingga informasi workshop dapat dibaca lebih lengkap tanpa memenuhi halaman utama.
