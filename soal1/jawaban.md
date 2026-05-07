@@ -8,9 +8,6 @@
 - **AppBar**  
     Menampilkan judul aplikasi, tombol menu dan notifikasi agar pengguna tidak bingung berada di halaman berapa.
 
-- **SearchBar (TextField)**
-    Memudahkan pengguna mencari workshop tanpa harus scroll panjang. 
-
 - **ListView**  
     Data workshop bisa bertambah banyak, sehingga perlu widget yang bisa discroll.
 
@@ -21,7 +18,7 @@
     Untuk menampilkan icon + teks secara horizontal (tanggal, lokasi, kuota).
 
 - **ElevatedButton**  
-    Tombol "Daftar" dibuat menonjol dan mudah dikenali sebagai aksi utama.
+    Tombol "Daftar Sekarang" dibuat menonjol dan mudah dikenali sebagai aksi utama.
 
 - **BottomNavigationBar**  
     Membantu navigasi antar halaman utama (Beranda, Favorit, Saya, Profil).
