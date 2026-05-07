@@ -1,5 +1,5 @@
 ## 1. Sketsa Layout
-![Sketsa Layout](Sketsa_layout.png)
+![Sketsa](Sketsa.png)
 
 ## 2. Alasan Pemilihan Widget
 - **Scaffold**  
@@ -24,7 +24,7 @@
     Tombol "Daftar" dibuat menonjol dan mudah dikenali sebagai aksi utama.
 
 - **BottomNavigationBar**  
-    Membantu navigasi antar halaman utama (Beranda, Jadwal, Saya, Profil).
+    Membantu navigasi antar halaman utama (Beranda, Favorit, Saya, Profil).
 
 ---
 
